@@ -1,0 +1,50 @@
+
+<php 
+    session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>  
+        <link rel="stylesheet" href="mhw2.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <nav>
+            <div id="logo">
+                <img src="logo.png">
+            </div>
+            <div id="bottoni">
+                <a href="home.php">Home</a>
+                <a href="home.php" class="hidden" id="logoutLink">Log Out</a>
+                <a href="">Contatti</a>
+            </div>
+
+        </nav>
+        <header>
+            <div class="barraricerca">
+                <p class="testo">Cerca</p>
+                <input id="searchbar" type="text" />
+            </div>
+            
+            <div class="preferiti">
+                <h1>Esami prenotati</h1>
+            </div>
+                    
+        </header>
+        
+        <section>  
+            <h1>Esami Prenotabili</h1>
+            <div id="ricercati"> </div>
+
+            
+            <div id="cont"></div>
+        </section>
+        <footer>Mary Di Gregorio matr.O46001623</footer>
+        <script src="areaStudente.js" defer></script>
+        <script src="contents.js"defer></script>
+        <script src="nav.js" defer></script>
+    </body>
+    
+</html>

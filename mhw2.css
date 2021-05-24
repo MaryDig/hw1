@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+}
+nav{
+    height: 110px;
+    margin: 0;
+    background-color: white;
+    border-bottom: 3px solid black;
+}
+
+a {
+    display: flex;
+    border-radius: 10px;
+    padding: 3px 15px;
+    align-items: flex-end;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{color:lightskyblue;}
+a:active{color:red;}
+
+#logo{
+    display: flex;
+    align-items:center;
+}
+
+
+
+#bottoni{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.barraricerca{
+    display: flex;
+    margin: 10px;
+    justify-content: flex-end;
+}
+.testo{
+    margin:10px;
+}
+
+.preferiti{
+    display:flex;
+    border: 3px solid black;
+    margin: 10px;
+    position: relative;
+}
+
+.logout{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:10px;
+}
+
+h1{
+    font-family: italic;
+    margin:10px;
+    font-size: 40px;
+}
+section{
+    border: 3px solid black;
+    margin:10px;
+    background-color:lightgray;
+}
+
+#cont{
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:lightgray;
+}
+
+#ricercati{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:lightgray;
+}
+
+.item{
+    height: 250px;
+    width: 250px;
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url(mhw2.boxEsami2.jpg);
+    background-size:cover;
+    z-index: 0;
+}
+#materia{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    font-size:xx-large;
+    z-index: 1;
+}
+.conteiner{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px;
+    background-color: black;
+}
+#Info{
+    font-size: large;
+    color:white;
+    z-index: 1;
+}
+
+
+.bottone2{
+    display: flex;
+    width: 100px;
+    border: 3px solid white;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 30px;
+    color:white;
+    background-color:black;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.hidden{
+    display: none !important;
+}
+
+.styleDettagli{
+    color:white;
+    background-color: black;
+    align-items: flex-start;
+    margin: 10px;
+    z-index: 1;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+    color:white;
+}
+
